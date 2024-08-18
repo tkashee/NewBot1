@@ -1,0 +1,51 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&family=Roboto:wght@400;500&display=swap');
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #c7c6bf;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+font-size: 48px;
+color: #eb3f14; 
+text-transform: uppercase;
+letter-spacing: 2px;
+margin-bottom: 40px;
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+
+}
+
+
+.bot-army {
+  overflow-x: scroll;
+  min-height: 300px;
+  max-width: 100%;
+  background-color: #d8d4cd;
+  border: 2px solid #e69245;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.ui.grid > .row.bot-army-row {
+  flex-wrap: nowrap;
+  min-height: 100%;
+  background-color: #ebc79e;
+  box-shadow: 0 4px 8px rgba(243, 217, 217, 0.178);
+  border-radius: 10px;
+}
+
+.ui.grid {
+  padding: 0px 20px;
+  background-color: #ebddbf;
+  border-radius: 15px;
+}
